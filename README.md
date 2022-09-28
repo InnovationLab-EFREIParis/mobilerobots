@@ -3,10 +3,14 @@
 Cette procedure n'est valable que pour un systeme 64 bits.
 Version du systeme lscpu
 
-sudo dpkg -i libaria_2.9.4+ubuntu16_amd64.deb
+Installer les paquets mobilesim et libaria situé dans le dossier 01_deb
+
+sudo dpkg -i NOM_DU_PAQUET
 
 ## Si problème de dépendance
 sudo apt --fix-broken install
+
+## Recompiler la librairie Aria
 
 cd /usr/local/Aria
 
