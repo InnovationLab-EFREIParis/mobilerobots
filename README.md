@@ -26,3 +26,7 @@ cd ~/catkin_ws/
 
 catkin_make
 
+## Exemple d'utilisation de rosaria
+
+https://github.com/pengtang/rosaria_client
+
