@@ -22,3 +22,10 @@ cd ~/catkin_ws/
 
 catkin_make
 
+## Utilisation
+### Avec le robot branché 
+S'assurer que la VM est bien connecté au robot (USB <> Serial)
+Dans le dossier catkin concerné, dans chaque terminal ouvert: . devel/setup.bash 
+dans un terminal: roscore
+dans un terminal: rosrun rosaria RosAria
+dans un terminal: rosrun rosaria_client interface
